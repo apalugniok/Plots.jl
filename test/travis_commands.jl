@@ -6,7 +6,7 @@ Pkg.build("ImageMagick")
 # Pkg.clone("GR")
 # Pkg.build("GR")
 
-Pkg.checkout(PackageSpec("https://github.com/JuliaPlots/PlotReferenceImages.jl.git", rev="master"))
+Pkg.add(PackageSpec("https://github.com/JuliaPlots/PlotReferenceImages.jl.git", rev="master"))
 
 # Pkg.clone("https://github.com/JuliaStats/KernelDensity.jl.git")
 
